@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2eebb41-fbc2-4160-a36a-66aa49ad92ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/_product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/templates/catalogo/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/templates/catalogo/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/product_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangocommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocommerce/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +145,7 @@
       <workItem from="1564165537586" duration="11413000" />
       <workItem from="1564177195640" duration="8961000" />
       <workItem from="1564230962032" duration="8161000" />
-      <workItem from="1564239762693" duration="3386000" />
+      <workItem from="1564239762693" duration="4704000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1564177638815</created>
@@ -228,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564242095934</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="app checkout model">
+      <created>1564250307338</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1564250307338</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -352,7 +362,8 @@
     <MESSAGE value="change user password" />
     <MESSAGE value="change user password changed" />
     <MESSAGE value="app checkout" />
-    <option name="LAST_COMMIT_MESSAGE" value="app checkout" />
+    <MESSAGE value="app checkout model" />
+    <option name="LAST_COMMIT_MESSAGE" value="app checkout model" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
