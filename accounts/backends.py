@@ -5,7 +5,7 @@ from .models import User
 
 class ModelBackend(BaseModelBackend):
 
-    def authenticate(self, username=None, password=None):
+    def authenticate(self, request, username=None, password=None, **kwargs):
         if not username is None:
             # UserModel = get_user_model()
             try:
