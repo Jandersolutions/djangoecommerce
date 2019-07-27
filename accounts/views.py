@@ -1,6 +1,7 @@
+from django.contrib.auth.forms import PasswordChangeForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
-from django.views.generic import CreateView, TemplateView, UpdateView
+from django.views.generic import CreateView, TemplateView, UpdateView, FormView
 
 from .forms import UserAdminCreationForm
 from .models import User
@@ -27,6 +28,22 @@ class UpdateUserView(LoginRequiredMixin, UpdateView):
         return self.request.user
 
 
+class UpdatePasswordView(LoginRequiredMixin, FormView):
+    template_name = 'accounts/update_password.html'
+    success_url = reverse_lazy('accounts:index')
+    form_class = PasswordChangeForm
+
+    def get_form_kwargs(self):
+        kwargs = super(UpdatePasswordView, self).get_form_kwargs()
+        kwargs['user'] = self.request.user
+        return kwargs
+
+    def form_valid(self, form):
+        form.save()
+        return super(UpdatePasswordView, self).form_valid(form)
+
+
 update_user = UpdateUserView.as_view()
+update_password = UpdateUserView.as_view()
 index = IndexView.as_view()
 register = RegisterView.as_view()
