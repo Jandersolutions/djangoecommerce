@@ -21,6 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('core.urls')),
     path('conta/', include(('accounts.urls', 'accounts'), namespace='accounts')),
+    path('compras/', include(('checkout.urls', 'checkout'), namespace='checkout')),
     path('produtos/', include(('catalogo.urls', 'catalogo'), namespace='catalogo')),
     path('entrar/', auth_views.LoginView.as_view(template_name='login.html'), name='login'),
     path('sair/', auth_views.LogoutView.as_view(template_name='index.html'), name='logout'),
