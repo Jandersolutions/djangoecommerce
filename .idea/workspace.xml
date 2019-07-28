@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2eebb41-fbc2-4160-a36a-66aa49ad92ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/checkout/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/templates/catalogo/_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/templates/catalogo/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/templates/catalogo/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/templates/catalogo/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/product_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangocommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocommerce/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangocommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocommerce/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,6 +147,7 @@
       <workItem from="1564230962032" duration="8161000" />
       <workItem from="1564239762693" duration="6366000" />
       <workItem from="1564317857473" duration="8335000" />
+      <workItem from="1564326914944" duration="4459000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1564177638815</created>
@@ -252,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564252755661</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="app checkout model and views update">
+      <created>1564327019429</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1564327019429</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -378,7 +380,8 @@
     <MESSAGE value="app checkout" />
     <MESSAGE value="app checkout model" />
     <MESSAGE value="app checkout cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="app checkout cart" />
+    <MESSAGE value="app checkout model and views update" />
+    <option name="LAST_COMMIT_MESSAGE" value="app checkout model and views update" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

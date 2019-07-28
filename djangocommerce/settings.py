@@ -137,7 +137,6 @@ AUTHENTICATION_BACKENDS = (
 
 # Messages
 from django.contrib.messages import constants as messages_constants
-
 MESSAGE_TAGS = {
     messages_constants.DEBUG: 'debug',
     messages_constants.INFO: 'info',
