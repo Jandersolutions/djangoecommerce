@@ -25,6 +25,8 @@ SECRET_KEY = '!qtu^=g(+o6f&=zw)tv=d_f+n49*41b-&^q(=*qscqsqz&%otm'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+# python manage.py runserver 0.0.0.0:8000
+# ALLOWED_HOSTS = ['192.168.1.107']
 
 # Application definition
 

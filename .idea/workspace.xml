@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2eebb41-fbc2-4160-a36a-66aa49ad92ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/checkout/templates/checkout/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Todo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/templates/catalogo/_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogo/templates/catalogo/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangocommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocommerce/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +172,9 @@
       <workItem from="1564317857473" duration="8335000" />
       <workItem from="1564326914944" duration="5256000" />
       <workItem from="1564339532538" duration="3723000" />
-      <workItem from="1564364244825" duration="2830000" />
+      <workItem from="1564364244825" duration="3653000" />
+      <workItem from="1564368971634" duration="584000" />
+      <workItem from="1564404415493" duration="3709000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1564177638815</created>
@@ -295,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564343222596</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add page cart">
+      <created>1564367186284</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564367186284</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -423,7 +430,8 @@
     <MESSAGE value="app checkout cart" />
     <MESSAGE value="app checkout model and views update" />
     <MESSAGE value="app contrib.messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="app contrib.messages" />
+    <MESSAGE value="add page cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="add page cart" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
