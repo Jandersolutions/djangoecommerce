@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2eebb41-fbc2-4160-a36a-66aa49ad92ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media/products/desenvolvimento-web-linguagens.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products/desenvolvimento-web-linguagens.jpg.285x160_q85_crop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products/desenvolvimento-web-linguagens.jpg.300x200_q85_crop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/products/desenvolvimento-web-linguagens.jpg.350x250_q85_crop.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/templates/catalogo/_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogo/templates/catalogo/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalogo/templates/catalogo/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangocommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocommerce/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangocommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocommerce/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +180,7 @@
       <workItem from="1564339532538" duration="3723000" />
       <workItem from="1564364244825" duration="3653000" />
       <workItem from="1564368971634" duration="584000" />
-      <workItem from="1564404415493" duration="4567000" />
+      <workItem from="1564404415493" duration="8606000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1564177638815</created>
@@ -307,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564409909276</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add function CarItemm signals">
+      <created>1564410813968</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564410813968</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +447,8 @@
     <MESSAGE value="app contrib.messages" />
     <MESSAGE value="add page cart" />
     <MESSAGE value="add function remove item cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="add function remove item cart" />
+    <MESSAGE value="add function CarItemm signals" />
+    <option name="LAST_COMMIT_MESSAGE" value="add function CarItemm signals" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

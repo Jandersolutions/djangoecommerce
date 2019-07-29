@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'accounts',
     'checkout',
     # libs
-    'widget_tweaks'
+    'widget_tweaks',
+    'easy_thumbnails',
 ]
 
 MIDDLEWARE = [
@@ -124,6 +125,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_FROM_EMAIL = 'admin@localhost.com'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
@@ -146,4 +149,13 @@ MESSAGE_TAGS = {
     messages.SUCCESS: 'alert-success',
     messages.WARNING: 'alert-warning',
     messages.ERROR: 'alert-danger',
+}
+
+# Thumbnails
+THUMBNAIL_ALIASES = {
+    '': {
+        'avatar': {'size': (50, 50), 'crop': True},
+        'product_image': {'size': (350, 250), 'crop': True},
+        'product': {'size': (300, 200), 'crop': True}
+    },
 }
