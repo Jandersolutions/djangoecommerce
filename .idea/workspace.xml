@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2eebb41-fbc2-4160-a36a-66aa49ad92ae" name="Default Changelist" comment="model OrderItem">
-      <change afterPath="$PROJECT_DIR$/checkout/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkout/migrations/0003_order_orderitem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkout/migrations/0004_auto_20190729_1622.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkout/templates/checkout/checkout.html" afterDir="false" />
+    <list default="true" id="d2eebb41-fbc2-4160-a36a-66aa49ad92ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/checkout/templates/checkout/order_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/templates/checkout/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/templates/checkout/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangocommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangocommerce/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -183,7 +179,8 @@
       <workItem from="1564368971634" duration="584000" />
       <workItem from="1564404415493" duration="9356000" />
       <workItem from="1564425043327" duration="2392000" />
-      <workItem from="1564427482926" duration="3681000" />
+      <workItem from="1564427482926" duration="4522000" />
+      <workItem from="1564439355478" duration="6915000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1564177638815</created>
@@ -332,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564414871553</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="middleware session_key">
+      <created>1564431598590</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1564431598590</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +464,8 @@
     <MESSAGE value="add function CarItemm signals" />
     <MESSAGE value="add images" />
     <MESSAGE value="model OrderItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="model OrderItem" />
+    <MESSAGE value="middleware session_key" />
+    <option name="LAST_COMMIT_MESSAGE" value="middleware session_key" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

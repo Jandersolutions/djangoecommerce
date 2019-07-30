@@ -50,22 +50,28 @@ class OrderManager(models.Manager):
 
 
 class Order(models.Model):
+
     STATUS_CHOICES = (
-        (0, 'Aguardando pagamento'),
+        (0, 'Aguardando Pagamento'),
         (1, 'Concluída'),
         (2, 'Cancelada'),
     )
 
     PAYMENT_OPTION_CHOICES = (
-        ('deposit', 'Depósito em conta'),
-        ('pagseguro', 'Pag Seguro'),
-        ('paypal', 'PayPal'),
+        ('deposit', 'Depósito'),
+        ('pagseguro', 'PagSeguro'),
+        ('paypal', 'Paypal'),
     )
 
     user = models.ForeignKey(settings.AUTH_USER_MODEL, verbose_name='Usuário', on_delete=True)
-    status = models.IntegerField('Situação', choices=STATUS_CHOICES, default=0, blank=True)
-    payment_option = models.CharField('Opção de pagamento', choices=PAYMENT_OPTION_CHOICES, max_length=20,
-                                      default='deposit')
+    status = models.IntegerField(
+        'Situação', choices=STATUS_CHOICES, default=0, blank=True
+    )
+    payment_option = models.CharField(
+        'Opção de Pagamento', choices=PAYMENT_OPTION_CHOICES, max_length=20,
+        default='deposit'
+    )
+
     created = models.DateTimeField('Criado em', auto_now_add=True)
     modified = models.DateTimeField('Modificado em', auto_now=True)
 
@@ -78,9 +84,13 @@ class Order(models.Model):
     def __str__(self):
         return 'Pedido #{}'.format(self.pk)
 
+    def products(self):
+        products_ids = self.items.values_list('product')
+        return Product.objects.filter(pk__in=products_ids)
+
 
 class OrderItem(models.Model):
-    order = models.ForeignKey(Order, verbose_name='Pedido', related_name='Items', on_delete=False)
+    order = models.ForeignKey(Order, verbose_name='Pedido', related_name='items', on_delete=False)
     product = models.ForeignKey('catalogo.Product', verbose_name='Produto', on_delete=True)
     quantity = models.PositiveIntegerField('Quantidade', default=1)
     price = models.DecimalField('Preço', decimal_places=2, max_digits=8)
